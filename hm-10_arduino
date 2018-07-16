@@ -19,7 +19,7 @@ int S = 7;
 int state = LOW;
 void setup()
 {
-  pinMode( S, INPUT); // checks the state of the BLE
+  pinMode( S, INPUT); // the state of BLE acts as input to the 7th digital pin of arduino
   pinMode(11, OUTPUT);// Pin that powers BLE
   digitalWrite(11,HIGH);
   Serial.begin(9600);// serial of arduino
