@@ -1,14 +1,14 @@
 
 /*
-  Wiring:
   Author: priyatham rao valipe
-  email: priyathamvalipe10@gmail.com
-  HM-10 Pinout
-  RX to pin 9 (Sofware TX)
-  TX to pin 8 (Sofware RX)
-  Vcc to 5 V
-  Gnd to Gnd
-  State pin of HM-10 to 7 of Arduino
+  email : priyathamvalipe10@gmail.com
+  Wiring:
+  HM-10 to Arduino
+  RX    to pin 9 (Sofware TX)
+  TX    to pin 8 (Sofware RX)
+  Vcc   to 11
+  Gnd   to Gnd
+  STATE to 7
 
 */
 #include <SoftwareSerial.h>
